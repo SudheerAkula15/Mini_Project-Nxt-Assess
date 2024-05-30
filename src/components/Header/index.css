@@ -1,0 +1,30 @@
+.nav-container {
+  width: 100%;
+  height: 88px;
+  background-color: #263868;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically */
+  padding: 0 24px; /* Apply padding to the sides */
+}
+
+.image {
+  background-color: transparent;
+  width: 98px;
+  height: 55.67px;
+  margin-top: 0; /* Remove top margin */
+  margin-left: 20px;
+  mix-blend-mode: multiply;
+}
+
+.logOutButton {
+  width: auto; /* Auto width */
+  padding: 15px; /* Adjust padding */
+  border-radius: 8px;
+  border: 2px solid #f1f5f9;
+  text-align: center;
+  background-color: #263868;
+  color: #f1f5f9;
+  cursor: pointer;
+}
